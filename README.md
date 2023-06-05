@@ -52,10 +52,10 @@ Este endpoint permite acortar una URL larga proporcionada. Debe enviarse una sol
 ### Redireccionar a la URL original
 
 ```
-GET /r/:link
+GET /r/link
 ```
 
-Este endpoint redirecciona a la URL original correspondiente al enlace acortado proporcionado en el parámetro `:link`.
+Este endpoint redirecciona a la URL original correspondiente al enlace acortado proporcionado en el parámetro `link`.
 
 **Respuesta exitosa**:
 
