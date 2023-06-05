@@ -1,7 +1,7 @@
 
 # API de Acortador de URL
 
-Esta API permite acortar URLs largas y redirigir a las URLs originales a través de los enlaces acortados.
+Esta API permite acortar URLs largas y redirigir a las URLs originales a través de los enlaces acortados, con persistencia en una base de datos Mongodb
 
 ## Endpoints
 
