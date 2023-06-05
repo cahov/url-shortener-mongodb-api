@@ -70,9 +70,11 @@ Este endpoint redirecciona a la URL original correspondiente al enlace acortado 
 ## Variables de entorno
 
 Deben configurarse las siguientes variables de entorno:
-- `MONGODB_URI`: La url de conexion a la base de datos Mongodb
-- `PORT`: El puerto en el que se ejecuta el servidor.
+- `MONGODB_URI`: La url de conexion a la base de datos Mongodb.
+- `PORT`: El puerto en el que se ejecuta el servidor puede modicarse en /src/config.js .
 - `NODE_ENV`: El entorno de ejecución de la aplicación (development o production), de estar en development la respuesta con la url acortada incluira el puerto.
+
+
 
 ## Requisitos
 
